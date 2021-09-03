@@ -1,0 +1,124 @@
+{
+  "customers": [
+    {
+      "id": "c1",
+      "order_id": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "c2",
+      "order_id": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "c3",
+      "order_id": [
+        5
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "order_total": 40.77,
+      "purchased_at": "retail_me",
+      "order_crated_date": "2021-03-07T11:23:55.667Z",
+      "order_lines": [
+        {
+          "item_id": "i-123",
+          "item_description": "hammer",
+          "item_qty": 4,
+          "item_price": 77.89
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "order_total": 99.77,
+      "purchased_at": "amaze",
+      "order_crated_date": "2021-03-06T11:23:55.667Z",
+      "order_lines": [
+        {
+          "item_id": "i-444",
+          "item_description": "paint",
+          "item_qty": 2,
+          "item_price": 55.32
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "order_total": 66.77,
+      "purchased_at": "colds",
+      "order_crated_date": "2021-03-21T11:23:55.667Z",
+      "order_lines": [
+        {
+          "item_id": "i-666",
+          "item_description": "door",
+          "item_qty": 2,
+          "item_price": 1155.32
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "order_total": 66.77,
+      "purchased_at": "colds",
+      "order_crated_date": "2021-03-21T11:23:55.667Z",
+      "order_lines": [
+        {
+          "item_id": "i-666",
+          "item_description": "door",
+          "item_qty": 2,
+          "item_price": 1155.32
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "order_total": 66.77,
+      "purchased_at": "colds",
+      "order_crated_date": "2021-03-21T11:23:55.667Z",
+      "order_lines": [
+        {
+          "item_id": "i-666",
+          "item_description": "door",
+          "item_qty": 2,
+          "item_price": 1155.32
+        }
+      ]
+    }
+  ],
+  "price" : [
+    {
+      "id": "i-123",
+      "price": 123.00
+    },
+    {
+      "id": "i-444",
+      "price": 99.99
+    },
+    {
+      "id": "i-666",
+      "price": 66.00
+    }
+  ],
+  "item" : [
+    {
+      "id": "i-123",
+      "description": "hammer"
+    },
+    {
+      "id": "i-444",
+      "description": "paint"
+    },
+    {
+      "id": "i-666",
+      "description": "door"
+    }
+  ]
+}
